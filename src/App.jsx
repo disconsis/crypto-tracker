@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
 import {Navbar, Exchanges, Homepage, Cryptocurrencies, News, CryptoDetails } from './components' ; 
@@ -15,7 +15,7 @@ return(
             <Layout>
                 <div className="routes">
                     <Switch>
-                        <Route exact path="/welcome">
+                        <Route exact path="/">
                              <Homepage />
                         </Route>
                         <Route exact path="/exchanges">

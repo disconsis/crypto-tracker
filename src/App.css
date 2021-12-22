@@ -24,7 +24,7 @@ a:hover{
 }
 
 .app{
-    /* display: flex; */
+    display: flex;
     overflow: hidden;
 }
 
