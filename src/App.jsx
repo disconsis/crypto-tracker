@@ -27,8 +27,8 @@ return(
                         <Route exact path="/crypto/:coinId">
                             <CryptoDetails />
                         </Route>
-                        <Route exact path="/crypto/:coinId">
-                            <News />
+                        <Route exact path="/news">
+                            <News simplified={false}/>
                         </Route>
                     </Switch>
                 </div>
