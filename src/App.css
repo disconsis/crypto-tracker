@@ -174,9 +174,9 @@ a:hover{
 }
 
 .coin-details-heading{
-    font-weight: 700 !important;
+    /* font-weight: 700 !important; */
     margin-top: 20px !important;
-    color: var(--pink) !important;
+    color: var(--text-primary) !important;
 }
 
 .coin-stats{
