@@ -43,7 +43,7 @@ export const CryptoDetails = () => {
       <Col className='coin-detail-container'>
         <Col className='coin-heading-container'>
           <Title level={2} className='coin-name'>
-            {`${cryptoDetails.name} (${cryptoDetails.slug})Price`.toUpperCase()}
+            {`${cryptoDetails.name} Price`.toUpperCase()}
           </Title>
           <p>
             {cryptoDetails.name} live price in US dollars
