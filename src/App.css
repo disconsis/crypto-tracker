@@ -376,3 +376,11 @@ width: 70%;
     padding: 20px;
     align-items: center;
 }
+
+.coin-value-statistics {
+    width: 50%;
+}
+
+.other-stats-info {
+    width: 50%;
+}
